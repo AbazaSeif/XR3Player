@@ -17,11 +17,11 @@
 	<packaging>jar</packaging>
 
 	<properties>
-		<maven.compiler.source>10</maven.compiler.source>
-		<maven.compiler.target>10</maven.compiler.target>
+		<maven.compiler.source>11</maven.compiler.source>
+		<maven.compiler.target>11</maven.compiler.target>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<my.project.version>128</my.project.version>
-		<ikonli.version>2.4.0</ikonli.version>
+		<ikonli.version>11.0.2</ikonli.version>
 	</properties>
 
 	<build>
@@ -35,10 +35,10 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.8.0</version>
 				<configuration>
-					<source>10</source>
-					<target>10</target>
-					<release>10</release>
-					<executable>javac10</executable>
+					<source>11</source>
+					<target>11</target>
+					<release>11</release>
+					<executable>javac11</executable>
 					<encoding>UTF-8</encoding>
 				</configuration>
 			</plugin>
@@ -141,6 +141,31 @@
 	<!-- Dependencies -->
 
 	<dependencies>
+
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-controls</artifactId>
+			<version>11</version>
+		</dependency>
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-fxml</artifactId>
+			<version>11</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-swing</artifactId>
+			<version>11</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.openjfx/javafx-web -->
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-web</artifactId>
+			<version>11</version>
+		</dependency>
+
 
 		<!-- ikonli -->
 		<dependency>
