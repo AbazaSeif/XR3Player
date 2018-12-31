@@ -54,7 +54,8 @@ module XR3Player {
 	requires dropbox.core.sdk;
 	requires evo.inflector;
 	requires flowless;
-//	requires image4j;requires jaudiotagger.V2.2.6;
+	requires image4j;
+//	requires jaudiotagger.V2.2.6;
 	requires java.desktop;
 	requires java.flac.encoder;
 //	requires java.google.speech.api.V2.1;
